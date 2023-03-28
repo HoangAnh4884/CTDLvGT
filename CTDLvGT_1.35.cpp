@@ -39,3 +39,12 @@ void XuatThongTin(STK stk)
 	printf("Ngay mo so la: ", stk.NgayMoSo);
 	printf("So tien gui la: ", stk.SoTienGui);
 } 
+
+int main()
+{
+	STK stk;
+	NhapThongTin(stk);
+	XuatThongTin(stk);
+	getch();
+	return 0; 
+} 
